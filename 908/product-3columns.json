@@ -1,0 +1,704 @@
+{
+    "pageId": "product",
+    "pageName": "Product Page",
+    "pageType": null,
+    "layoutEnabled": true,
+    "moduleCategories": [
+      "header",
+      "images",
+      "text",
+      "search",
+      "categories_products",
+      "forms",
+      "navigation",
+      "footer",
+      "product"
+    ],
+    "VFSPath": "layouts/product.json",
+    "requiredModules": [
+      "product_images",
+      "product_purchase"
+    ],
+    "scripts": "<script>\n    document.addEventListener(\"DOMContentLoaded\", function() {\n  // Get the div with the class \"cart-promo-message\"\n  const cartPromoDiv = document.querySelector(\".cart-promo-message\");\n\n  // Check if the div exists and contains the target text.\n  if (cartPromoDiv && cartPromoDiv.textContent.includes(\"$350.00 more\")) {\n   \n// Replace the text \"$350.00 more\" with \"$350.00 or more\"\ncartPromoDiv.textContent = cartPromoDiv.textContent.replace(\"$350.00 more\", \"$350.00 or more\");\n}\n});\n</script>",
+    "sections": [
+      {
+        "sectionId": "section_2",
+        "htmlId": "",
+        "htmlClasses": "",
+        "contentWidth": "wide",
+        "backgroundColor": "",
+        "backgroundImage": "",
+        "textColor": "dark",
+        "display": "normal",
+        "rows": [
+          {
+            "rowId": "row_2",
+            "rowLayout": 12,
+            "htmlId": null,
+            "htmlClasses": null,
+            "columns": [
+              {
+                "columnId": "column_3",
+                "columnWidth": 12,
+                "htmlId": null,
+                "htmlClasses": null,
+                "moduleArrangement": "block",
+                "textAlignment": "left",
+                "modules": [
+                  {
+                    "moduleId": "module_1",
+                    "moduleType": "product_breadcrumbs",
+                    "title": "Breadcrumbs",
+                    "options": {},
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_4",
+                    "moduleType": "product_title",
+                    "title": "Product Title",
+                    "options": {
+                      "product_subtitle_text": {
+                        "name": "Product Subtitle Text",
+                        "type": "string",
+                        "default_value": null,
+                        "value": ""
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "mobile-only"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "section_1",
+        "htmlId": "",
+        "htmlClasses": "",
+        "contentWidth": "wide",
+        "backgroundColor": "",
+        "backgroundImage": "",
+        "textColor": "dark",
+        "display": "normal",
+        "rows": [
+          {
+            "rowId": "row_3",
+            "rowLayout": "4_4_4",
+            "htmlId": null,
+            "htmlClasses": null,
+            "columns": [
+              {
+                "columnId": "column_7",
+                "columnWidth": 4,
+                "htmlId": null,
+                "htmlClasses": null,
+                "moduleArrangement": "block",
+                "textAlignment": "text-left",
+                "modules": [
+                  {
+                    "moduleId": "module_8",
+                    "moduleType": "product_images",
+                    "title": "Product Images",
+                    "options": {},
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  }
+                ]
+              },
+              {
+                "columnId": "column_8",
+                "columnWidth": 4,
+                "htmlId": null,
+                "htmlClasses": null,
+                "moduleArrangement": "block",
+                "textAlignment": "text-left",
+                "modules": [
+                  {
+                    "moduleId": "module_19",
+                    "moduleType": "product_title",
+                    "title": "Product Title",
+                    "options": {},
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "desktop-only"
+                  },
+                  {
+                    "moduleId": "module_20",
+                    "moduleType": "product_info",
+                    "title": "Product Info",
+                    "options": {},
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "desktop-only"
+                  },
+                  {
+                    "moduleId": "module_21",
+                    "moduleType": "product_details",
+                    "title": "Product Details",
+                    "options": {
+                      "universal_fitment_display": {
+                        "name": "Display \\\"Universal Fitment\\\" Image",
+                        "caption": "If an item has univseral fitment display a custom image",
+                        "type": "boolean",
+                        "default_value": null,
+                        "value": false
+                      },
+                      "universal_fitment_image_file": {
+                        "name": "Universal Fitment Image File",
+                        "type": "image_upload",
+                        "default_value": null,
+                        "value": ""
+                      },
+                      "universal_fitment_alt_text": {
+                        "name": "Universal Fitment Alt Text",
+                        "type": "string",
+                        "default_value": "Universal Fitment",
+                        "value": "Universal Fitment"
+                      },
+                      "warranty_html": {
+                        "name": "Warranty text",
+                        "type": "html_content",
+                        "default_value": "",
+                        "value": ""
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "desktop-only"
+                  }
+                ]
+              },
+              {
+                "columnId": "column_9",
+                "columnWidth": 4,
+                "htmlId": null,
+                "htmlClasses": null,
+                "moduleArrangement": "block",
+                "textAlignment": "text-left",
+                "modules": [
+                  {
+                    "moduleId": "module_5",
+                    "moduleType": "product_purchase",
+                    "title": "Product Purchase",
+                    "options": {
+                      "display_fitment_confirmation": {
+                        "name": "Display Fitment Confirmation Section",
+                        "type": "boolean",
+                        "default_value": true,
+                        "value": null
+                      },
+                      "fitment_fits_car": {
+                        "name": "Part Fits Selected Car",
+                        "type": "string",
+                        "default_value": null,
+                        "value": null,
+                        "placeholder": "This part fits your {ymm}",
+                        "caption": "Message displayed when the part fits the currently selected car ({ymm}: currently selected car)"
+                      },
+                      "fitment_may_fit_car": {
+                        "name": "Part May Fit Selected Car",
+                        "type": "string",
+                        "default_value": null,
+                        "value": null,
+                        "placeholder": "This part may fit your {ymm}",
+                        "caption": "Message displayed when the part does not fit the currently selected car, but a part that supersedes to this part fits the currently selected car ({ymm}: currently selected car)"
+                      },
+                      "fitment_doesnt_fit_car": {
+                        "name": "Part Doesn't Fit Selected Car",
+                        "type": "string",
+                        "default_value": null,
+                        "value": null,
+                        "placeholder": "This part does not fit your {ymm}",
+                        "caption": "Message displayed when the part does not fit the currently selected car ({ymm}: currently selected car)"
+                      },
+                      "fitment_select_car": {
+                        "name": "Select New Car Text",
+                        "type": "string",
+                        "default_value": null,
+                        "value": null,
+                        "placeholder": "Change vehicle",
+                        "caption": "Message displayed when a car is selected, but may not be desired car"
+                      },
+                      "fitment_no_car_selected": {
+                        "name": "No Car Selected",
+                        "type": "string",
+                        "default_value": null,
+                        "value": null,
+                        "placeholder": "Make sure this part fits your car",
+                        "caption": "Message displayed when fitment information exists, but no car is selected"
+                      },
+                      "fitment_display_no_fitment": {
+                        "name": "Display \\\"No Fitment\\\" Message",
+                        "type": "boolean",
+                        "default_value": null,
+                        "value": null
+                      },
+                      "fitment_no_fitment_message": {
+                        "name": "No Fitment Message",
+                        "type": "string",
+                        "default_value": null,
+                        "value": null,
+                        "placeholder": "Provide your VIN at checkout and we will verify this part fits before shipping",
+                        "caption": "Message displayed when no fitment information exists"
+                      }
+                    },
+                    "htmlId": null,
+                    "htmlClasses": null,
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_13",
+                    "moduleType": "product_badges",
+                    "title": "Product Badges",
+                    "options": {
+                      "display_security": {
+                        "name": "Display Security",
+                        "type": "boolean",
+                        "default_value": true,
+                        "value": true
+                      },
+                      "security_text": {
+                        "name": "Security Text",
+                        "caption": "Security Badge Text (35 character max)",
+                        "type": "string",
+                        "default_value": "Your information is safe",
+                        "value": "Your information is safe"
+                      },
+                      "display_warranty": {
+                        "name": "Display Warranty",
+                        "type": "boolean",
+                        "default_value": true,
+                        "value": true
+                      },
+                      "warranty_text": {
+                        "name": "Warranty Text",
+                        "caption": "Warranty Badge Text (35 character max)",
+                        "type": "string",
+                        "default_value": "Minimum of 12 Months",
+                        "value": "<a href=\"Mazda-parts-and-accessories-warranty\" target=\"_blank\">Minimum of 12 Months</a>"
+                      },
+                      "display_fitment": {
+                        "name": "Display Fitment",
+                        "type": "boolean",
+                        "default_value": true,
+                        "value": true
+                      },
+                      "fitment_text": {
+                        "name": "Fitment Text",
+                        "caption": "Fitment Badge Text (35 character max)",
+                        "type": "string",
+                        "default_value": "Always the correct parts",
+                        "value": "Always the correct parts"
+                      },
+                      "display_support": {
+                        "name": "Display Support",
+                        "type": "boolean",
+                        "default_value": true,
+                        "value": true
+                      },
+                      "support_text": {
+                        "name": "Support Text",
+                        "caption": "Support Badge Text (35 character max)",
+                        "type": "string",
+                        "default_value": "We know our products",
+                        "value": "We know our products"
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "desktop-only"
+                  },
+                  {
+                    "moduleId": "module_18",
+                    "moduleType": "custom_html",
+                    "title": "Custom HTML",
+                    "options": {
+                      "html_content": {
+                        "name": "Custom HTML Content",
+                        "type": "html_content",
+                        "default_value": "",
+                        "value": "<figure><img src=\"https://rparts-sites.s3.amazonaws.com/7543add6da3df96533f766a75698f3c0/design/mazda.png\" data-image=\"&quot;3c5ff84964c98d9c22369e02514c4e79&quot;\"></figure>"
+                      },
+                      "force_lazy": {
+                        "name": "Lazy Load Images",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": false
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "section_4",
+        "htmlId": "",
+        "htmlClasses": "d-none",
+        "contentWidth": "wide",
+        "backgroundColor": "",
+        "backgroundImage": "",
+        "textColor": "dark",
+        "display": "desktop-only",
+        "rows": [
+          {
+            "rowId": "row_5",
+            "rowLayout": 12,
+            "htmlId": null,
+            "htmlClasses": null,
+            "columns": [
+              {
+                "columnId": "column_6",
+                "columnWidth": 12,
+                "htmlId": null,
+                "htmlClasses": null,
+                "moduleArrangement": "block",
+                "textAlignment": "text-left",
+                "modules": [
+                  {
+                    "moduleId": "module_7",
+                    "moduleType": "product_tab_nav",
+                    "title": "Product Navigation Tabs",
+                    "options": {
+                      "display_single_tab": {
+                        "name": "Display Tabs Individually",
+                        "type": "boolean",
+                        "default_value": false,
+                        "value": false
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "section_3",
+        "htmlId": "",
+        "htmlClasses": "",
+        "contentWidth": "wide",
+        "backgroundColor": "",
+        "backgroundImage": "",
+        "textColor": "dark",
+        "display": "normal",
+        "rows": [
+          {
+            "rowId": "row_4",
+            "rowLayout": 12,
+            "htmlId": null,
+            "htmlClasses": null,
+            "columns": [
+              {
+                "columnId": "column_5",
+                "columnWidth": 12,
+                "htmlId": null,
+                "htmlClasses": null,
+                "moduleArrangement": "block",
+                "textAlignment": "left",
+                "modules": [
+                  {
+                    "moduleId": "module_30",
+                    "moduleType": "product_info",
+                    "title": "Product Info",
+                    "options": {},
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "mobile-only"
+                  },
+                  {
+                    "moduleId": "module_10",
+                    "moduleType": "product_details",
+                    "title": "Product Details",
+                    "options": {
+                      "universal_fitment_display": {
+                        "name": "Display \\\"Universal Fitment\\\" Image",
+                        "caption": "If an item has univseral fitment display a custom image",
+                        "type": "boolean",
+                        "default_value": null,
+                        "value": false
+                      },
+                      "universal_fitment_image_file": {
+                        "name": "Universal Fitment Image File",
+                        "type": "image_upload",
+                        "default_value": null,
+                        "value": ""
+                      },
+                      "universal_fitment_alt_text": {
+                        "name": "Universal Fitment Alt Text",
+                        "type": "string",
+                        "default_value": "Universal Fitment",
+                        "value": "Universal Fitment"
+                      },
+                      "warranty_html": {
+                        "name": "Warranty text",
+                        "type": "html_content",
+                        "default_value": "",
+                        "value": ""
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "mobile-only"
+                  },
+                  {
+                    "moduleId": "module_4",
+                    "moduleType": "product_title",
+                    "title": "Product Title",
+                    "options": {
+                      "product_subtitle_text": {
+                        "name": "Product Subtitle Text",
+                        "type": "string",
+                        "default_value": null,
+                        "value": ""
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "mobile-only"
+                  },
+                  {
+                    "moduleId": "module_14",
+                    "moduleType": "product_recommended",
+                    "title": "Recommended Products",
+                    "options": {},
+                    "htmlId": null,
+                    "htmlClasses": null,
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_9",
+                    "moduleType": "product_fitment",
+                    "title": "Product Fitment",
+                    "options": {},
+                    "htmlId": null,
+                    "htmlClasses": null,
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_10",
+                    "moduleType": "product_details",
+                    "title": "Product Details",
+                    "options": {
+                      "universal_fitment_display": {
+                        "name": "Display \\\"Universal Fitment\\\" Image",
+                        "caption": "If an item has univseral fitment display a custom image",
+                        "type": "boolean",
+                        "default_value": null,
+                        "value": false
+                      },
+                      "universal_fitment_image_file": {
+                        "name": "Universal Fitment Image File",
+                        "type": "image_upload",
+                        "default_value": null,
+                        "value": ""
+                      },
+                      "universal_fitment_alt_text": {
+                        "name": "Universal Fitment Alt Text",
+                        "type": "string",
+                        "default_value": "Universal Fitment",
+                        "value": "Universal Fitment"
+                      },
+                      "warranty_html": {
+                        "name": "Warranty text",
+                        "type": "html_content",
+                        "default_value": "",
+                        "value": ""
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "mobile-only"
+                  },
+                  {
+                    "moduleId": "module_13",
+                    "moduleType": "product_badges",
+                    "title": "Product Badges",
+                    "options": {
+                      "display_security": {
+                        "name": "Display Security",
+                        "type": "boolean",
+                        "default_value": true,
+                        "value": true
+                      },
+                      "security_text": {
+                        "name": "Security Text",
+                        "caption": "Security Badge Text (35 character max)",
+                        "type": "string",
+                        "default_value": "Your information is safe",
+                        "value": "Your information is safe"
+                      },
+                      "display_warranty": {
+                        "name": "Display Warranty",
+                        "type": "boolean",
+                        "default_value": true,
+                        "value": true
+                      },
+                      "warranty_text": {
+                        "name": "Warranty Text",
+                        "caption": "Warranty Badge Text (35 character max)",
+                        "type": "string",
+                        "default_value": "Minimum of 12 Months",
+                        "value": "<a href=\"Mazda-parts-and-accessories-warranty\" target=\"_blank\">Minimum of 12 Months</a>"
+                      },
+                      "display_fitment": {
+                        "name": "Display Fitment",
+                        "type": "boolean",
+                        "default_value": true,
+                        "value": true
+                      },
+                      "fitment_text": {
+                        "name": "Fitment Text",
+                        "caption": "Fitment Badge Text (35 character max)",
+                        "type": "string",
+                        "default_value": "Always the correct parts",
+                        "value": "Always the correct parts"
+                      },
+                      "display_support": {
+                        "name": "Display Support",
+                        "type": "boolean",
+                        "default_value": true,
+                        "value": true
+                      },
+                      "support_text": {
+                        "name": "Support Text",
+                        "caption": "Support Badge Text (35 character max)",
+                        "type": "string",
+                        "default_value": "We know our products",
+                        "value": "We know our products"
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "desktop-only"
+                  },
+                  {
+                    "moduleId": "module_11",
+                    "moduleType": "product_store_description",
+                    "title": "Store Description",
+                    "options": {},
+                    "htmlId": null,
+                    "htmlClasses": null,
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_12",
+                    "moduleType": "product_brand_description",
+                    "title": "Brand Description",
+                    "options": {},
+                    "htmlId": null,
+                    "htmlClasses": null,
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_15",
+                    "moduleType": "product_warranty",
+                    "title": "Product Warranty",
+                    "options": {},
+                    "htmlId": null,
+                    "htmlClasses": null,
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_16",
+                    "moduleType": "product_installation",
+                    "title": "Product Installation",
+                    "options": {},
+                    "htmlId": null,
+                    "htmlClasses": null,
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_17",
+                    "moduleType": "product_policies",
+                    "title": "Product Policies",
+                    "options": {},
+                    "htmlId": null,
+                    "htmlClasses": null,
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
