@@ -1,0 +1,372 @@
+{
+    "pageId": "product",
+    "pageName": "Product Page",
+    "pageType": null,
+    "layoutEnabled": true,
+    "moduleCategories": [
+      "header",
+      "images",
+      "text",
+      "search",
+      "categories_products",
+      "forms",
+      "navigation",
+      "footer",
+      "account_page",
+      "order_page"
+    ],
+    "VFSPath": "layouts/product.json",
+    "requiredModules": [
+      "product_meta"
+    ],
+    "scripts": "",
+    "sections": [
+      {
+        "sectionId": "section_2",
+        "htmlId": null,
+        "htmlClasses": null,
+        "contentWidth": null,
+        "backgroundColor": null,
+        "backgroundImage": null,
+        "textColor": "dark",
+        "display": "normal",
+        "rows": [
+          {
+            "rowId": "row_2",
+            "rowLayout": 12,
+            "htmlId": null,
+            "htmlClasses": null,
+            "columns": [
+              {
+                "columnId": "column_3",
+                "columnWidth": 12,
+                "htmlId": null,
+                "htmlClasses": null,
+                "moduleArrangement": "block",
+                "textAlignment": "left",
+                "modules": [
+                  {
+                    "moduleId": "module_1",
+                    "moduleType": "product_breadcrumbs",
+                    "title": "Breadcrumbs",
+                    "options": {},
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "section_1",
+        "htmlId": null,
+        "htmlClasses": null,
+        "contentWidth": null,
+        "backgroundColor": null,
+        "backgroundImage": null,
+        "textColor": "dark",
+        "display": "normal",
+        "rows": [
+          {
+            "rowId": "row_1",
+            "rowLayout": "6_6",
+            "htmlId": null,
+            "htmlClasses": null,
+            "columns": [
+              {
+                "columnId": "column_2",
+                "columnWidth": 6,
+                "htmlId": null,
+                "htmlClasses": null,
+                "moduleArrangement": "block",
+                "textAlignment": "left",
+                "modules": [
+                  {
+                    "moduleId": "module_8",
+                    "moduleType": "product_images",
+                    "title": "Product Images (Desktop)",
+                    "options": {},
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "desktop-only"
+                  }
+                ]
+              },
+              {
+                "columnId": "column_4",
+                "columnWidth": 6,
+                "htmlId": null,
+                "htmlClasses": null,
+                "moduleArrangement": "block",
+                "textAlignment": "left",
+                "modules": [
+                  {
+                    "moduleId": "module_3",
+                    "moduleType": "product_title",
+                    "title": "Product Title",
+                    "options": {},
+                    "htmlId": null,
+                    "htmlClasses": null,
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_4",
+                    "moduleType": "product_browse_more",
+                    "title": "Browse More",
+                    "options": {},
+                    "htmlId": "",
+                    "htmlClasses": "no-margin",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_5",
+                    "moduleType": "product_purchase",
+                    "title": "Product Purchase",
+                    "options": {},
+                    "htmlId": null,
+                    "htmlClasses": null,
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_13",
+                    "moduleType": "custom_html",
+                    "title": "VIN Request",
+                    "options": {
+                      "html_content": {
+                        "name": "Custom HTML Content",
+                        "type": "html_content",
+                        "default_value": "",
+                        "value": "<p><strong>Provide your VIN at checkout and we'll verify this part fits your specific vehicle before shipping.</strong></p>"
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_2",
+                    "moduleType": "custom_html",
+                    "title": "Part Availability",
+                    "options": {
+                      "html_content": {
+                        "name": "Custom HTML Content",
+                        "type": "html_content",
+                        "default_value": "",
+                        "value": "<p>PLEASE NOTE: <strong>ALL PARTS ARE SUBJECT TO AVAILABILITY</strong> and some may require special ordering from the manufacturer.</p>"
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_7",
+                    "moduleType": "product_images",
+                    "title": "Product Images (Mobile)",
+                    "options": {},
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "mobile-only"
+                  },
+                  {
+                    "moduleId": "module_6",
+                    "moduleType": "product_info",
+                    "title": "Product Info",
+                    "options": {},
+                    "htmlId": null,
+                    "htmlClasses": null,
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_15",
+                    "moduleType": "product_badges",
+                    "title": "Product Badges",
+                    "options": {
+                      "display_security": {
+                        "name": "Display Security",
+                        "type": "boolean",
+                        "default_value": true,
+                        "value": true
+                      },
+                      "security_text": {
+                        "name": "Security Text",
+                        "caption": "Security Badge Text (35 character max)",
+                        "type": "string",
+                        "default_value": "Your information is safe",
+                        "value": "Your information is safe"
+                      },
+                      "display_warranty": {
+                        "name": "Display Warranty",
+                        "type": "boolean",
+                        "default_value": true,
+                        "value": true
+                      },
+                      "warranty_text": {
+                        "name": "Warranty Text",
+                        "caption": "Warranty Badge Text (35 character max)",
+                        "type": "string",
+                        "default_value": "Minimum of 12 Months",
+                        "value": "This genuine OEM GM part, when sold & used within the U.S., is guaranteed by GM's limited part warranty."
+                      },
+                      "display_fitment": {
+                        "name": "Display Fitment",
+                        "type": "boolean",
+                        "default_value": true,
+                        "value": true
+                      },
+                      "fitment_text": {
+                        "name": "Fitment Text",
+                        "caption": "Fitment Badge Text (35 character max)",
+                        "type": "string",
+                        "default_value": "Always the correct parts",
+                        "value": "By supplying your vin# (Vehicle Identification number) It allows us to verify your selection will be correct for your specific vehicle."
+                      },
+                      "display_support": {
+                        "name": "Display Support",
+                        "type": "boolean",
+                        "default_value": true,
+                        "value": true
+                      },
+                      "support_text": {
+                        "name": "Support Text",
+                        "caption": "Support Badge Text (35 character max)",
+                        "type": "string",
+                        "default_value": "We know our products",
+                        "value": "Our team of seasoned parts professionals are available to help. Feel free to call us @ 877-498-7278 or email us at {$GlobalSupportEmail}"
+                      }
+                    },
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionId": "section_3",
+        "htmlId": null,
+        "htmlClasses": null,
+        "contentWidth": null,
+        "backgroundColor": null,
+        "backgroundImage": null,
+        "textColor": "dark",
+        "display": "normal",
+        "rows": [
+          {
+            "rowId": "row_4",
+            "rowLayout": 12,
+            "htmlId": null,
+            "htmlClasses": null,
+            "columns": [
+              {
+                "columnId": "column_5",
+                "columnWidth": 12,
+                "htmlId": null,
+                "htmlClasses": null,
+                "moduleArrangement": "block",
+                "textAlignment": "left",
+                "modules": [
+                  {
+                    "moduleId": "module_10",
+                    "moduleType": "product_details",
+                    "title": "Product Details",
+                    "options": {},
+                    "htmlId": null,
+                    "htmlClasses": null,
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_15",
+                    "moduleType": "product_brand_description",
+                    "title": "Brand Description (Warranty Info)",
+                    "options": {},
+                    "htmlId": "",
+                    "htmlClasses": "",
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_14",
+                    "moduleType": "product_recommended",
+                    "title": "Recommended Products",
+                    "options": {},
+                    "htmlId": null,
+                    "htmlClasses": null,
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_9",
+                    "moduleType": "product_fitment",
+                    "title": "Product Fitment",
+                    "options": {},
+                    "htmlId": null,
+                    "htmlClasses": null,
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  },
+                  {
+                    "moduleId": "module_11",
+                    "moduleType": "product_store_description",
+                    "title": "Store Description",
+                    "options": {},
+                    "htmlId": null,
+                    "htmlClasses": null,
+                    "minColumnWidth": 0,
+                    "customAdmin": false,
+                    "modulePadding": "padding-0",
+                    "display": "normal"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
